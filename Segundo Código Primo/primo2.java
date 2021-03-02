@@ -1,9 +1,9 @@
 public class primo2 {
     public static void main(String[] args){
-        int numPrimo = 129848753;
-        int numDivisores = 0;
+        double numPrimo = 2147483647;
+        double numDivisores = 0;
 
-        for(int i = 1; i <= numPrimo; i++){
+        for(double i = 1; i <= numPrimo; i++){
             if(numPrimo % i == 0){
                 numDivisores++;
             }
